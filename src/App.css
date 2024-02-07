@@ -1,0 +1,51 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.HeaderText1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.HeaderText2 {
+  color: rgba(0, 0, 0, 0.60);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.VisText {
+  color: rgba(0, 0, 0, 0.60);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.MenubarText {
+  color: rgba(0, 0, 0, 0.60);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding-left: 15px;
+}
+
+.AppHeaderText {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}

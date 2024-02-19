@@ -1,8 +1,8 @@
 All the assets and images
 
 To do list: 
-- Change public images and text on tab
-- Logo etc for link sharing on whatsapp
+- Change public images and text on tab: Done
+- Logo etc for link sharing on whatsapp: Done
 - Share button feature
 - Host on web.app
 - 4 temples live darshan integration

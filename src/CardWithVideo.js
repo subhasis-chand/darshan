@@ -32,6 +32,29 @@ const CardWithVideo = ({
     setExpanded(!expanded);
   };
 
+  const handleSharing = async () => {
+    if (navigator.share) {
+      try {
+        await navigator
+          .share({
+            url: "https://fantastic-space-trout-w5jqj9gqpgwf5594-3000.app.github.dev/",
+            title: "Sanatan Darshan",
+            text: "Watch live streaming of many sanatan temples with one single app. Stay blessed."
+          })
+          .then(() =>
+            console.log("Hooray! Your content was shared to tha world")
+          );
+      } catch (error) {
+        console.log(`Oops! I couldn't share to the world because: ${error}`);
+      }
+    } else {
+      // fallback code
+      console.log(
+        "Web share is currently not supported on this browser. Please provide a callback"
+      );
+    }
+  };
+
   return (
     <Card style={{ color: '#3e2200', marginBottom: '30px' }}>
       <ReactPlayer
@@ -62,7 +85,10 @@ const CardWithVideo = ({
         >
           <ExpandCircleDownIcon fontSize='large' />
         </ExpandMore>
-        <IconButton aria-label="share">
+        <IconButton
+          aria-label="share"
+          onClick={handleSharing}
+        >
           <ShareIcon />
         </IconButton>
       </CardActions>

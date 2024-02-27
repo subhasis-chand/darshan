@@ -3,12 +3,14 @@ All the assets and images
 To do list: 
 - Change public images and text on tab: Done
 - Logo etc for link sharing on whatsapp: Done
-- Share button feature
-- Host on web.app
-- 4 temples live darshan integration
+- 4 temples live darshan integration: Done
+- Share button feature: Done
+
 - installable pwa
 - About page
 - contact us page
-- Google Analytics
+- Google Analytics 
+- Add details for temples
+- Host on github pages
 
 https://www.youtube.com/embed/live_stream?channel=UCT1egsvA08YcdMLiEu1DTRg
